@@ -30,6 +30,8 @@ html { background: black; }
 
 * div.block h2 { font-size: 2rem; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
 
+@media only screen and (max-width: 769px) { * div.block h2 { font-size: 2rem; } }
+
 * div.block h2 span { font-size: 1.5rem; display: inline-block; }
 
 * div.block sup { display: block; padding: 0.3rem; font-size: 1rem; }
