@@ -14,8 +14,11 @@ html {
     position: relative;
     padding: 4em;
     margin: 0;
+    @media only screen and (max-width: 769px) {
+      padding: 1em;
+    }
 
-    div.floatImg {
+    span.floatImg {
       position: fixed;
       width: 100%;
       left: 50%;

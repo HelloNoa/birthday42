@@ -6,9 +6,11 @@ html { background: black; }
 
 * body { position: relative; padding: 4em; margin: 0; }
 
-* body div.floatImg { position: fixed; width: 100%; left: 50%; transform: translateX(-50%); bottom: 0; max-width: 1000px; z-index: -1; }
+@media only screen and (max-width: 769px) { * body { padding: 1em; } }
 
-* body div.floatImg img { position: relative; width: 50%; left: 50%; transform: translateX(-50%); }
+* body span.floatImg { position: fixed; width: 100%; left: 50%; transform: translateX(-50%); bottom: 0; max-width: 1000px; z-index: -1; }
+
+* body span.floatImg img { position: relative; width: 50%; left: 50%; transform: translateX(-50%); }
 
 * h1 { font-size: 4rem; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
 
