@@ -1,0 +1,108 @@
+#rainbow {
+  background-image: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, purple);
+}
+
+html {
+  background: black;
+}
+
+* {
+  color: white;
+
+  body {
+    padding: 4em;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 4rem;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  }
+
+  div.block {
+    &:nth-of-type(1) {
+      border-color: red;
+    }
+
+    &:nth-of-type(2) {
+      color: orange;
+    }
+
+    &:nth-of-type(3) {
+      color: yellow;
+    }
+
+    &:nth-of-type(4) {
+      color: green;
+    }
+
+    &:nth-of-type(5) {
+      color: blue;
+    }
+
+    &:nth-of-type(6) {
+      color: darkblue;
+    }
+
+    &:nth-of-type(7) {
+      color: purple;
+    }
+
+    border: 2px solid;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+
+    h2 {
+      font-size: 2rem;
+      text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+
+      span {
+        font-size: 1.5rem;
+        display: inline-block;
+      }
+    }
+
+    sup {
+      display: block;
+      padding: 0.3rem;
+      font-size: 1rem;
+
+      &:nth-of-type(1) {
+        color: lawngreen;
+        background: red;
+      }
+
+      &:nth-of-type(2) {
+        color: blue;
+        background: orange;
+      }
+
+      &:nth-of-type(3) {
+        color: darkblue;
+        background: yellow;
+      }
+
+      &:nth-of-type(4) {
+        color: purple;
+        background: lawngreen;
+      }
+
+      &:nth-of-type(5) {
+
+        color: red;
+        background: blue;
+      }
+
+      &:nth-of-type(6) {
+        color: orange;
+        background: darkblue;
+      }
+
+      &:nth-of-type(7) {
+        color: yellow;
+        background: purple;
+      }
+    }
+  }
+}
