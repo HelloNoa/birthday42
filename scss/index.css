@@ -1,0 +1,45 @@
+#rainbow { background-image: linear-gradient(to bottom, red, orange, yellow, green, blue, indigo, purple); }
+
+html { background: black; }
+
+* { color: white; }
+
+* body { padding: 4em; margin: 0; }
+
+* h1 { font-size: 4rem; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
+
+* div.block { border: 2px solid; border-radius: 10px; margin-bottom: 2rem; padding: 1rem; }
+
+* div.block:nth-of-type(1) { border-color: red; }
+
+* div.block:nth-of-type(2) { color: orange; }
+
+* div.block:nth-of-type(3) { color: yellow; }
+
+* div.block:nth-of-type(4) { color: green; }
+
+* div.block:nth-of-type(5) { color: blue; }
+
+* div.block:nth-of-type(6) { color: darkblue; }
+
+* div.block:nth-of-type(7) { color: purple; }
+
+* div.block h2 { font-size: 2rem; text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; }
+
+* div.block h2 span { font-size: 1.5rem; display: inline-block; }
+
+* div.block sup { display: block; padding: 0.3rem; font-size: 1rem; }
+
+* div.block sup:nth-of-type(1) { color: lawngreen; background: red; }
+
+* div.block sup:nth-of-type(2) { color: blue; background: orange; }
+
+* div.block sup:nth-of-type(3) { color: darkblue; background: yellow; }
+
+* div.block sup:nth-of-type(4) { color: purple; background: lawngreen; }
+
+* div.block sup:nth-of-type(5) { color: red; background: blue; }
+
+* div.block sup:nth-of-type(6) { color: orange; background: darkblue; }
+
+* div.block sup:nth-of-type(7) { color: yellow; background: purple; }
