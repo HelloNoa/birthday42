@@ -16,6 +16,8 @@ html { background: black; }
 
 * div.block { border: 2px solid; border-radius: 10px; margin-bottom: 2rem; padding: 1rem; }
 
+* div.block .insta { background: url(./../insta.png) 0 0 no-repeat; background-size: 1em; padding-left: 1em; }
+
 * div.block:nth-of-type(1) { border-color: red; }
 
 * div.block:nth-of-type(2) { color: orange; }
